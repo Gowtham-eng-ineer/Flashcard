@@ -1,0 +1,65 @@
+.header {
+  padding: 1rem 0;
+  color: rgb(0, 0, 255);
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;          /*Header cascade Logo,Hovering, and Login cascade*/
+  align-items: center;
+  padding: 02rem;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 5rem;
+  width: 6rem;
+  margin-right: 0.50rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.brand-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin-left: 1rem;
+}
+
+.nav-list li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+  color: #a1cbef;
+}
+.nav-list li a.active {
+  text-decoration: none;
+  border-bottom: 2px solid #a1cbef;
+}
+.nav-list li.login {
+  background-color: #43ae00; 
+  border-radius: 0.3rem;
+}
+.nav-list li.login a {
+  color: #ffffff; 
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+.nav-list li.login a:hover {
+  background-color: #4a63e7; 
+}
